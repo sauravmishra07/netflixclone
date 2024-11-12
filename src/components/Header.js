@@ -22,7 +22,7 @@ const Header = () => {
         
         {/* Buttons - Flexing horizontally on larger screens, stacking on smaller ones */}
         <div className='ml-4 flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-2'>
-          <button className='bg-red-600 text-white px-4 py-2 rounded-md text-sm sm:text-base'>Logout</button>
+          <button className='bg-red-800 text-white px-4 py-2 rounded-md text-sm sm:text-base'>Logout</button>
           <button className='bg-red-600 text-white px-4 py-2 rounded-md text-sm sm:text-base'>Search Movie</button>
         </div>
       </div>
